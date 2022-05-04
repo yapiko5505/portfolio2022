@@ -34,11 +34,8 @@ a img {
 }
 
 h1 {
-    font-size: 50px;
-    margin-top: 200px;
-    margin-left: 400px;
-  
-    
+    margin-top: 150px;
+    margin-left: 200px;
 }
 
 h2 {
@@ -100,9 +97,6 @@ header {
 
 .header-nav ul {
     list-style: none;
-    display: flex;
-    margin-left: 1000px;
-    padding-left: 150px;
 }
 
 #my-photo {
@@ -129,21 +123,17 @@ header {
 
 /* タブレット、PC向け */
 @media(min-width:768px) {
-    .site-header {
+
+    .header-nav ul {
         display: flex;
-        justify-content: space-between;
-        max-width: 90%;
-        margin: 0 auto;
+        margin-left: 1200px;
     }
 
-    .site-header-section {
-        display: flex;
-        align-items: center;
-    }
-
-    .site-header-section li {
-        margin: 0 0 0 1rem;
-    }
+   h1 {
+    font-size: 50px;
+    margin-top: 200px;
+    margin-left: 400px;  
+}
 
     #my-photo {
         margin-left: 100px;
